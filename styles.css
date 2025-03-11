@@ -7,7 +7,11 @@ body {
     padding:0;
 }
 h1{
+<<<<<<< HEAD
     color: #ff6347;
+=======
+    color:  White (#FFFFFF);
+>>>>>>> c6703f0 (COMMIT)
 }
 h2{
     color: #00bcd4;
@@ -23,6 +27,7 @@ h1, h2 {
     border:3px solid #ff6347;
     object-fit: cover;
 }
+<<<<<<< HEAD
 .navbar {
     background-color: #D35400;
     padding: 10px;
@@ -38,16 +43,77 @@ h1, h2 {
 .navbar ul li {
     display: inline;
     margin-right: 20px;
+=======
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    background-color: #D35400;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    margin: 0;
+>>>>>>> c6703f0 (COMMIT)
 }
 
 .navbar ul li a {
     color: white;
     text-decoration: none;
     font-size: 18px;
+<<<<<<< HEAD
     padding: 8px 16px;
     border-radius: 4px;
+=======
+    padding: 8px 10px;
+    border-radius: 4px;
+    transition: background 0.3s ease-in-out;
+>>>>>>> c6703f0 (COMMIT)
 }
 
 .navbar ul li a:hover {
     background-color: #575757;
+<<<<<<< HEAD
 }
+=======
+}
+/* Dark Mode Toggle */
+#dark-mode-toggle {
+    background: #222;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+#dark-mode-toggle:hover {
+    background: #444;
+}
+.dark-mode {
+    background-color: #2b2b2b ;
+    color: #e0e0e0;
+}
+
+.dark-mode header {
+    background-color: #1a1a1a;
+}
+.dark-mode #about img {
+    border: 3px solid #e0e0e0;
+}
+.dark-mode h2{
+    color: #90a4ae;
+}
+.dark-mode a{
+    color: #90a4ae;
+}
+>>>>>>> c6703f0 (COMMIT)
